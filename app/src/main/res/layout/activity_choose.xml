@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <com.smarteist.autoimageslider.SliderView
+        android:id="@+id/image_slide"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:sliderAnimationDuration="600"
+        app:sliderAutoCycleDirection="back_and_forth"
+        app:sliderAutoCycleEnabled="true"
+        app:sliderIndicatorAnimationDuration="600"
+        app:sliderIndicatorGravity="center"
+        app:sliderIndicatorMargin="15dp"
+        app:sliderIndicatorMarginTop="145dp"
+        app:sliderIndicatorOrientation="horizontal"
+        app:sliderIndicatorPadding="3dp"
+        app:sliderIndicatorRadius="5px"
+        app:sliderIndicatorSelectedColor="#5A5A5A"
+        app:sliderIndicatorUnselectedColor="#fff"
+        app:sliderScrollTimeInSec="2"
+        app:sliderStartAutoCycle="true"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hire a Pro To Do Your Task"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:fontFamily="@font/robotomedium"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="More than 100 Local Services"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:fontFamily="@font/robotolight"/>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Started"
+        android:backgroundTint="#FCAD14"
+        android:textAllCaps="false"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:id="@+id/btnSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New to ProGig? SignUp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/robotoregular"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>

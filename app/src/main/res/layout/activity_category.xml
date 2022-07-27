@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Category">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FCAD14"
+            android:orientation="horizontal"
+            android:elevation="8dp">
+
+            <net.steamcrafted.materialiconlib.MaterialIconView
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:scaleType="center"
+                app:materialIcon="arrow_left"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category"
+                android:layout_margin="20dp"
+                android:fontFamily="@font/robotobold"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:fontFamily="@font/robotoregular"-->
+<!--            android:text="Filter:"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:layout_marginHorizontal="10dp"/>-->
+
+<!--        <HorizontalScrollView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:scrollbars="none">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal">-->
+
+
+<!--                <RadioGroup-->
+<!--                    android:id="@+id/radio_filter"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:layout_marginLeft="10dp">-->
+
+<!--                    <RadioButton-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="30dp"-->
+<!--                        android:layout_marginHorizontal="5dp"-->
+<!--                        android:checked="true"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="All"-->
+<!--                        android:textSize="12dp" />-->
+
+<!--                    <RadioButton-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginHorizontal="5dp"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="Perak"-->
+<!--                        android:textSize="12dp" />-->
+
+<!--                    <RadioButton-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginHorizontal="5dp"-->
+<!--                        android:gravity="center"-->
+<!--                        android:text="Melaka"-->
+<!--                        android:textSize="12dp" />-->
+
+
+
+<!--                </RadioGroup>-->
+
+<!--            </LinearLayout>-->
+
+<!--        </HorizontalScrollView>-->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycleView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

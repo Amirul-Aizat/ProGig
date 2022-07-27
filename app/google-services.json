@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "696034628570",
+    "project_id": "progig-local",
+    "storage_bucket": "progig-local.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696034628570:android:d101200ef36ac1b22526e3",
+        "android_client_info": {
+          "package_name": "com.amirul.progig"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696034628570-t997elsvavog9msui4j80955lo0m20nt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRYqhuMef1df0ZPpI2HsJc0dCtUaWI09E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696034628570-t997elsvavog9msui4j80955lo0m20nt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
